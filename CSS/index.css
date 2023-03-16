@@ -1,0 +1,171 @@
+* {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(50, 50, 50);
+}
+
+.bg-img {
+  position: relative;
+  width: 1450px;
+  height: 600px;
+  filter: blur(4px);
+
+}
+
+.zoro {
+  background: transparent;
+  position: absolute;
+  top: 20;
+  right: 3%;
+  width: 650px;
+  height: 600px;
+}
+
+.logo {
+  background: transparent;
+  position: absolute;
+  top: 177px;
+  left: 97px;
+  width: 235px;
+  height: 74px;
+}
+
+
+.corner {
+  padding-left: 2rem;
+  position: absolute;
+  top: 305px;
+  left: 93px;
+  height: 46px;
+  width: 503px;
+  z-index: 10;
+  border-radius: 47px;
+  border: none;
+  background: white;
+  font-size: 15px;
+}
+
+.corner1 {
+  padding-left: 2rem;
+  position: absolute;
+  top: 305px;
+  left: 645px;
+  height: 46px;
+  width: 48px;
+  z-index: 10;
+  border-radius: 47px;
+  border: none;
+  background: rgb(167, 245, 84);
+  font-size: 15px;
+}
+
+
+.search {
+  position: relative;
+  width: 190px;
+  height: 30px;
+}
+
+.container {
+  position: absolute;
+  margin: 10px;
+
+}
+
+.topnav {
+
+  position: absolute;
+  background: transparent;
+  display: flex;
+  top: 15%;
+  left: 7rem;
+}
+
+.topnav a {
+
+  background: transparent;
+  top: 10%;
+  left: 10%;
+  z-index: 15;
+  color: #000000;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  margin-left: 1rem;
+}
+
+.topnav a:hover {
+  color: rgb(53, 207, 171);
+}
+
+
+.a {
+  display: block;
+}
+.con{
+  height: 110px;
+  position: relative;
+  top: 611px;
+
+}
+.Container h3{
+  position: absolute;
+  top: 30%;
+  left: 10%;
+  z-index: 20;
+  color: #f2f2f2;
+
+}
+.Main h1{
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  background-color: rgb(167, 245, 84);
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  color: #040404;
+  font-size: 30px;
+  align-items: center;
+  left: 126px;
+  width: 1161px;
+  height: 50px;
+  
+}
+.Main hr{
+  position: relative;
+  color: rgb(167, 245, 84);
+  top: 608px;
+  height: 50px;
+  width: 0px;
+  left: 82px;
+  z-index: 10;
+  background-color: rgb(167, 245, 84);
+}
+.Main h2 {
+  border-radius: 25px;
+  padding: 20px;
+  background-color: rgb(0, 0, 0);
+  top: 538px;
+  position: relative;
+  text-decoration: none;
+  color: rgb(167, 245, 84);
+  font-size: 20px;
+  align-items: center;
+  left: 107px;
+  width: 1320px;
+  height: 50px;
+}
+.Main h4 {
+  background: transparent;
+  padding: 20px;
+  top: 480px;
+  position: relative;
+  text-decoration: none;
+  color: rgb(244, 244, 244);
+  font-size: 10px;
+  align-items: center;
+  left: 107px;
+  width: 1320px;
+  height: 50px;
+}
